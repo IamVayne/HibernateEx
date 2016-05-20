@@ -1,7 +1,11 @@
 package com.hb.domain;
 
-public class Employee
+public class Employee implements java.io.Serializable
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private String name;
 	private String email;

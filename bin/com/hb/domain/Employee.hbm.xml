@@ -11,8 +11,8 @@
 		<!-- name:表示类的哪个属性是主键 -->
 		<id name="id" type="java.lang.Integer">
 		<!-- 指定主键生成策略 -->
-		<column name="user_id" />
-		<generator class="identity" />
+		<column name="id" />
+		<generator class="native" />
 		</id>
 		<property name="name" type="java.lang.String">
 		<column name="name" not-null="true"/>
