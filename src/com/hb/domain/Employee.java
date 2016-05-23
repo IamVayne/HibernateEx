@@ -12,6 +12,7 @@ public class Employee implements java.io.Serializable
 	private String hiredate;
 	public Integer getId()
 	{
+		System.out.println("domain");
 		return id;
 	}
 	public void setId(Integer id)
